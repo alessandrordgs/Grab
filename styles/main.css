@@ -76,7 +76,7 @@ label:hover{
     font-weight: 700;
 }
 footer{
-    margin: 4rem;
+    margin-top: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
