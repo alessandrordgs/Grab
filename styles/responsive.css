@@ -1,0 +1,20 @@
+@media(min-width:768px){
+    body{
+        display: flex;
+        overflow: hidden;
+    }
+
+    .interview img{
+        width: 850px;
+        height: 700px;
+        margin-left: 400px;
+        
+    }
+    .login{
+        width: 600px;
+        position: absolute;
+    }
+    .login .logo img{
+        width: 300px;
+    }
+}
