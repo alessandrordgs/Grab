@@ -80,7 +80,7 @@ label:hover{
     cursor: pointer;
 }
 footer{
-    margin-top: 8rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,5 +88,14 @@ footer{
     color: #fff;
     font-weight: 300;
     font-size: 0.8rem;
+    background-color: var(--color--blue--);
 }
+.interview{
+    margin: 0;
+}
+.interview img{
+    width: 0rem;
+    visibility:  hidden;
+    
 
+}
