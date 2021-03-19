@@ -60,14 +60,12 @@ label:hover{
 .red, .red:hover{
     border: 2px solid var(--color--red--);
 }
-.ivi{
-    visibility: hidden;
-}
-
 
 .icon{
    margin:0.5rem;
    margin-left: 1rem;
+   color:#ffffff;
+   font-size: 1.2rem;
 }
 
 .input{
