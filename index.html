@@ -19,17 +19,20 @@
 
       <main>
 
-        <form action="">
+        <form name="loginForm" action="">
             
-            <label for="">
+            <label id="email" for="">
               <div class="icon"><img src="./assets/email.svg" alt=""></div>
-              <input class="input" icon='./assets/email.svg' type="text" name="" id="">
+              <input class="input" type="text" name="email" id="">
+              
             </label>
+            <p id="error"></p>
             <label for="">
               <div><img class="icon" src="./assets/lock.svg" alt=""></div>
               <input class="input" type="password" name="" id="">
             </label>
-            <button class="button">Entrar</button>
+            
+            <input type="button" class="button" onclick="valid()" value="Entrar">
         </form>
     
       </main>
@@ -44,4 +47,5 @@
      <img src="./assets/undraw_interview_rmcf.svg" alt="">
     </div>
   </body>
+  <script src="/js/script.js"></script>
 </html>
