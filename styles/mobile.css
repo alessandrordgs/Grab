@@ -52,13 +52,20 @@ label{
     border: 2px solid #F8F8F8;
     border-radius: 2rem;
     width: 18rem;
-   
 }
 label:hover{
   border: 2px solid #000000;
 }
 .red, .red:hover{
     border: 2px solid var(--color--red--);
+ 
+   
+}
+.red ::-webkit-input-placeholder{
+    color: #ffffff;
+}
+.red i{
+    color: var(--color--red--);
 }
 
 .icon{
@@ -76,6 +83,19 @@ label:hover{
     margin-top: 0.2rem;
     outline: none;
     color: #ffffff;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff;
+  -webkit-box-shadow: 0 0 0px 1000px var(--color--blue--) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+#error{
+    color: #ffffff;
+    font-size: 0.8rem;
+    margin-right: 4rem;
 }
 
 .button{
